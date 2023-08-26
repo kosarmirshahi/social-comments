@@ -1,0 +1,164 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.topSection {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .topSection {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+.leftTopSection {
+  width: 45%;
+}
+@media screen and (max-width: 700px) {
+  .leftTopSection {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.rightTopSection {
+  width: 45%;
+  margin-top: 70px;
+}
+@media screen and (max-width: 700px) {
+  .rightTopSection {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+  }
+}
+#pText {
+  font-size: 18px;
+  color: hsl(303, 10%, 53%);
+}
+.degree {
+  width: 25rem;
+  height: 3rem;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: 18px;
+  color: hsl(300, 43%, 22%);
+}
+@media screen and (max-width: 700px) {
+  .degree {
+    width: 90%;
+    height: 5rem;
+    text-align: center;
+    display: block;
+  }
+}
+.secondDegree {
+  margin-left: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .secondDegree {
+    margin-left: 0px;
+  }
+}
+.thirdDegree {
+  margin-left: 80px;
+}
+@media screen and (max-width: 1000px) {
+  .thirdDegree {
+    margin-left: 0px;
+  }
+}
+.stars {
+  margin-bottom: 5px;
+}
+@media screen and (max-width: 700px) {
+  .stars {
+    margin-bottom: -8px;
+  }
+}
+.titleText {
+  font-size: 52px;
+  color: hsl(300, 43%, 22%);
+  font-family: "Inter", sans-serif;
+  font-family: "League Spartan", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+.buttomSection {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.card {
+  width: 20rem;
+  height: 12rem;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px 25px 30px 25px;
+  color: white;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 950px) {
+  .card {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 470px) {
+  .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .card {
+    width: 90%;
+  }
+}
+.topCard {
+  width: 90%;
+  display: flex;
+}
+.profilePhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+#secondP {
+  color: hsl(333, 80%, 67%);
+  margin-top: -10px;
+}
+.secondCard {
+  margin-top: 20px;
+}
+.thirdCard {
+  margin-top: 40px;
+}
+.mobileDesign {
+  display: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=League+Spartan:wght@700;900&family=Lexend+Deca:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;800&family=League+Spartan:wght@300&family=Lexend+Deca:wght@200&display=swap");
